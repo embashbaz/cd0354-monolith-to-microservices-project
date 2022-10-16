@@ -15,7 +15,7 @@ script:
   # Faites de même pour les trois autres images
   # Marquage
   - docker tag udagram-api-feed emeryb/udagram-api-feed:v1b
-  - docker tag udagram-user emeryb/udagram-api-user:v1b
+  - docker tag udagram-api-user emeryb/udagram-api-user:v1b
   - docker tag udagram-reverseproxy emeryb/udagram-reverseproxy:v1b
   - docker tag udagram-frontend emeryb/udagram-frontend:local
 # Faire de même pour les trois autres images ``
